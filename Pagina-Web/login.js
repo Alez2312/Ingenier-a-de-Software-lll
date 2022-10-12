@@ -1,23 +1,40 @@
-function validar() {
-    let validado = true
-    let username = document.getElementById('username');
-    let password = document.getElementById('password');
 
-    let msgUsername = document.getElementById('msgUsername');
-    let msgPassword = document.getElementById('msgPassword');
-
-    if (username.value != 'admin') {
-        msgUsername.innerHTML = 'Usuario incorrecto';
-        validado = false;
-        console.log(username);
+    var username = document.getElementById('username');
+    var password = document.getElementById('password');
+    var username_error = document.getElementById('username_error');
+    var password_error = document.getElementById('password_error');
+    
+    username.addEventListener('textInput', username_Verify);
+    password.addEventListener('textInput', password_Verify);
+    
+    function validated(){
+        if (username.value != "admin") {
+            username.style.border = "1px solid red";
+            username_error.style.display = "block";
+            username.focus();
+            return false;
+        }
+        if (password.value != "1234") {
+            password.style.border = "1px solid red";
+            password_error.style.display = "block";
+            password.focus();
+            return false;
+        }
+    
     }
-    if (password.value!= '1234') {
-        msgPassword.innerHTML = 'Contraseña incorrecto';
-        validado = false;
-        console.log(password);
+    function username_Verify(){
+        if (username.value != "admin") {
+            username.style.border = "1px solid silver";
+            username_error.style.display = "none";
+            return true;
+        }
     }
-    if (validado == true) {
-        alert(`Ingresado`);
+    function password_Verify(){
+        if (password.value != "1234") {
+            password.style.border = "1px solid silver";
+            password_error.style.display = "none";
+            return true;
+        }
     }
-    return validado;
-}
+    
+    
