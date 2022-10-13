@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: rgb(175, 118, 180);
+    background: linear-gradient(90deg, rgba(175, 118, 180, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    text-align: center;
+}
+
+.descripcion {
+    border: 2px solid black;
+    text-align: left;
+    padding: 10px;
+    margin: 20px;
+    width: 30%;
+}
+.images {
+    background-image: url("Marketing02.png");
+    border: 2px solid black;
+    width: 10%;
+    height: 10%;
+}
