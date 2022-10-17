@@ -87,7 +87,7 @@ body {
   .bar {
     height: 5px;
     width: 100%;
-    background-color: #DC052D;
+    background-color: #ffffff;
     display: block;
     border-radius: 5px;
     transition: 0.3s ease;
@@ -136,7 +136,7 @@ body {
     width: 0;
     height: 0;
     margin: 30px 0 20px 20px;
-    background: radial-gradient(circle, #DC052D, #DC052D);
+    background: radial-gradient(circle, #dc6ade, #b513b0);
     border-radius: 50%;
     transition: 0.3s ease;
   }
