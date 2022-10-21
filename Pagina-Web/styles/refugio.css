@@ -8,6 +8,8 @@ body {
 }
 .title, nav {
     text-align: center;
+    position: relative;
+    z-index: 2;
 }
 
 ul {
@@ -41,6 +43,7 @@ ul li:hover {
   color: #f7f7f7;
 }
 .container {
+    z-index: 1;
     position: relative;
     margin: 20px auto;
     width: 45%;
@@ -104,7 +107,7 @@ ul li:hover {
     font-weight: bold;
     background: #689ed1;
     color: #ffffff;
-    border-radius: 3px;
+    border-radius: 10px;
     border: 1px solid #6ab4c7;
     transition: .5s;
 }
@@ -150,3 +153,29 @@ ul li:hover {
 .switch-button .switch-button__checkbox:checked + .switch-button__label:before {
     transform: translateX(20px);
 }
+ul li:hover {
+    background: #ffffff;
+    color: #000000;
+  }
+  
+  ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #ffffff;
+    padding: 0;
+  }
+  
+  ul ul li {
+    float: none;
+    width: 150px;
+  }
+  ul ul a {
+    line-height: 120%;
+    padding: 10px 15px;
+  }
+  ul li:hover > ul {
+    display: block;
+  }
+  
