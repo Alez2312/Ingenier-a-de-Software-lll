@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Refugio</title>
-    <link rel="stylesheet" href="../styles/canino.css">
+    <link rel="stylesheet" href="../styles/adultoMayor.css">
 </head>
 
 <body>
@@ -16,8 +16,8 @@
             <ul>
                 <li><a href="form.html">Inicio</a></li>
                 <li><a href="tipoCanino.html">Tipo de canino</a></li>
+                <li><a href="canino.html">Canino</a></li>
                 <li><a href="refugio.html">Refugio</a></li>
-                <li><a href="adultoMayor.html">Adulto mayor</a></li>
                 <li><a href="simon.html">Simon</a></li>
                 <li><a href="#">Más</a>
                     <ul>
@@ -31,38 +31,38 @@
         </nav>
     </div>
     <div class="container">
-        <form class="canino_form" method="post" name="canino" onsubmit="return validated()">
+        <form class="adultoMayor_form" method="post" name="adultoMayor" onsubmit="return validated()">
             <div class="font">
-                <label class="id">Id:</label>
-                <input type="number" name="idCanino" id="idCanino">
+                <label class="id">Cédula:</label>
+                <input type="number" name="idAdultoMayor" id="idAdultoMayor">
             </div>
             <div class="font font2">
-                <label class="nombre">Nombre:</label>
-                <input type="text" name="nombre" id="nombre">
+                <label class="nombre1">Primer nombre:</label>
+                <input type="text" name="nombre1" id="nombre1">
             </div>
             <div class="font font3">
-                <label>Fecha adopción:</label>
-                <input type="date" name="fecha_adopcion" id="fecha_adopcion">
+                <label class="nombre2">Segundo nombre:</label>
+                <input type="text" name="nombre2" id="nombre2">
             </div>
             <div class="font font4">
-                <label class="rastreador">Rastreador:</label>
-                <input type="text" name="rastreador" id="rastreador">
+                <label class="apellido1">Primer apellido:</label>
+                <input type="text" name="apellido1" id="apellido1">
             </div>
             <div class="font font5">
-                <label class="carnet">Carnet:</label>
-                <input type="text" name="carnet" id="carnet">
+                <label class="apellido2">Segundo apellido:</label>
+                <input type="text" name="apellido2" id="apellido2">
             </div>
             <div class="font font6">
-                <label class="foto">Foto:</label>
-                <input type="text" name="foto" id="foto">
+                <label class="celular">Celular:</label>
+                <input type="text" name="celular" id="celular">
             </div>
             <div class="font font7">
-                <label class="id_tipoCanino">Tipo canino:</label>
-                <input type="text" name="id_tipoCanino" id="id_tipoCanino">
+                <label class="direccion">Dirección:</label>
+                <input type="text" name="direccion" id="direccion">
             </div>
             <div class="font font8">
-                <label class="refugio">Refugio:</label>
-                <input type="text" name="refugio" id="refugio">
+                <label class="foto">Foto:</label>
+                <input type="text" name="foto" id="foto">
             </div>
             <div class="font font9">
                 <label class="estado">Estado:</label>
@@ -77,6 +77,7 @@
             <button>Eliminar</button>
             <button type="reset">Cancelar</button>
         </form>
+    </div>
     </div>
     <script src="../login.js"></script>
 </body>

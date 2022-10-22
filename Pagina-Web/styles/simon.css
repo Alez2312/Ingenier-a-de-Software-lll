@@ -1,8 +1,8 @@
 body {
-  background: rgb(175, 118, 180);
+  background: rgb(135, 198, 223);
   background: linear-gradient(
     90deg,
-    rgba(175, 118, 180, 1) 0%,
+    rgb(118, 166, 180) 0%,
     rgba(148, 187, 233, 1) 100%
   );
 }
@@ -12,7 +12,6 @@ nav {
   position: relative;
   z-index: 2;
 }
-
 ul {
   text-transform: uppercase;
   text-align: left;
@@ -31,7 +30,7 @@ ul li {
   position: relative;
   padding: 15px 20px;
   background: #689ed1;
-  color: #ffffff;
+  color: #000000;
   cursor: pointer;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -41,50 +40,42 @@ ul li {
 }
 ul li:hover {
   background: #ffffff;
-  color: #f7f7f7;
+  color: #000000;
 }
 .container {
-  position: absolute;
-  z-index: 1;
-  margin: 40px 28%;
+  position: relative;
+  margin: 20px auto;
   width: 45%;
   background: #dedede;
   border-radius: 5px;
 }
 
-.usuario_form {
+.simon_form {
   padding: 20px 110px;
 }
-.usuario_form .font {
+.simon_form .font {
   font-size: 18px;
 }
-.usuario_form .font2 {
+.simon_form .font2 {
   padding-top: 15px;
 }
-.usuario_form .font3 {
+.simon_form .font3 {
   padding-top: 15px;
 }
-.usuario_form .font4 {
+.simon_form .font4 {
   padding-top: 15px;
 }
-.usuario_form .font5 {
-  padding: 15px 0 15px 0;
-}
-
 .id {
-  margin: 0 30px 0 0;
+  margin: 0 70px 0 0;
 }
-.nombre {
-  margin: 0 20px 0 0;
-}
-.perfil {
-  margin: 0 40px 0 0;
+.ubicacion {
+  margin: 0 12px 0 0;
 }
 .estado {
-  margin: 0 30px 0 0;
+  margin: 0 40px 0 0;
   padding: auto;
 }
-.usuario_form input {
+.simon_form input {
   height: 40px;
   width: 350px;
   padding: 0 5px;
@@ -92,7 +83,7 @@ ul li:hover {
   outline: none;
   border: 1px solid silver;
 }
-.usuario_form button {
+.simon_form button {
   margin: 45px 0 30px 0;
   height: 45px;
   width: 120px;
@@ -106,7 +97,7 @@ ul li:hover {
   border: 1px solid #6ab4c7;
   transition: 0.5s;
 }
-.usuario_form button:hover {
+.simon_form button:hover {
   background: #ffffff;
   color: #000000;
 }
