@@ -1,0 +1,1 @@
+https://remingtonedu-my.sharepoint.com/:u:/r/personal/alejandro_perez_4571_miremington_edu_co/Documents/Archivos%20de%20chat%20de%20Microsoft%20Teams/1-Parcial-Alejandro_P%C3%A9rez_Lezama_lpm.rar?csf=1&web=1&e=M4ZRBw
